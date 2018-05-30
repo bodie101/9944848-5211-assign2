@@ -20,7 +20,7 @@ namespace question03
                 Console.WriteLine(fruit);
 
             sw.Stop();
-            Console.WriteLine(sw.Elapsed);     
+            Debug.WriteLine(sw.Elapsed);     
             }
         }
     }
