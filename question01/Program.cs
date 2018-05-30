@@ -4,6 +4,10 @@ namespace question01
 {
     class Program
     {
+        static string Greeting(string fname, string lname) {
+
+            return "Hello (fname) (lname) enjoy this assignemnt :-)";
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Hi, please introduce yourself:");
@@ -14,11 +18,9 @@ namespace question01
             var lname = Console.ReadLine();
 
             Console.WriteLine(Greeting(fname, lname));
-        }
+        
 
-        static string Greeting(string fname, string lname) {
-
-            return "Hello (fname) (lname) enjoy this assignemnt :-)";
+        
         }
     }
 }
