@@ -12,9 +12,9 @@ namespace question03
 
             sw.Start();
 
-            string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};
+            //string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};
 
-            //List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
+            List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
 
             foreach(var fruit in fruitsArray) {
                 Console.WriteLine(fruit);
